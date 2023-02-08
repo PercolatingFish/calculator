@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 80px;
+    height: 60px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+    padding: 20px;
+    background-color: gray;
+}
+
+.display {
+    height: 150px;
+    width: 100%;
+    align-self: center;
+    background-color: gainsboro;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button-container {
+    display: flex;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

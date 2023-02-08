@@ -23,4 +23,10 @@ function operator (operator, num1, num2) {
     return operators[operator](num1, num2);
 }
 
-console.log(operator("add", 10,20))
+let displayInfo = ""
+
+function r(num) {
+    displayInfo += num;
+    display.textContent = displayInfo;}
+
+let display = document.getElementById("display-id")

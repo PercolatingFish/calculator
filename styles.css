@@ -23,13 +23,15 @@ button {
     background-color: gray;
 }
 
-.display {
+#display-id {
     height: 150px;
     width: 100%;
     align-self: center;
     background-color: gainsboro;
     text-align: center;
     margin-top: 10px;
+    font-size: 5em;
+    font-weight: 800;
 }
 
 .button-container {

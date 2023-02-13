@@ -56,10 +56,10 @@ function textRemover() {
 
 
 function equals() {
-    if (operator == null) {
+    if (operator == null || num2 == '') {
         return
     }
     num2 = operate(operator, num1, num2);
-    display.textContent = num2;
+    display.textContent = parseFloat(num2.toFixed(6));
     operator = null;
 }

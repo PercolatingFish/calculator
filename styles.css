@@ -1,14 +1,16 @@
 body {
-    margin: 0;
+    margin: 50px 0 0 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #050F2B;
 }
 
 button {
     width: 80px;
     height: 60px;
+    background-color: #516EBC;
 }
 
 .calculator {
@@ -20,17 +22,19 @@ button {
     gap: 20px;
     width: 500px;
     padding: 20px;
-    background-color: gray;
+    background-color: #153477;
 }
 
 #display-id {
     height: 150px;
     width: 100%;
     align-self: center;
-    background-color: gainsboro;
+    background-color: #C1CDDC;
+    color: #153477;
     text-align: center;
     margin-top: 10px;
-    font-size: 5em;
+    padding-top: 20px;
+    font-size: 6em;
     font-weight: 800;
 }
 
@@ -42,4 +46,19 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.number-button {
+    color: rgba(245, 245, 245, 0.74);
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.operator-button {
+    background-color: #C1CDDC;
+    color: #153477;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 1.1em;
 }

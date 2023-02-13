@@ -13,24 +13,24 @@
         <div id="display-id">Calculator</div>
         <div class="button-container">
             <div class="numbers">
-                <button class="number-button" onclick="r(0)">0</button>
-                <button class="number-button" onclick="r(1)">1</button>
-                <button class="number-button" onclick="r(2)">2</button>
-                <button class="number-button" onclick="r(3)">3</button>
-                <button class="number-button" onclick="r(4)">4</button>
-                <button class="number-button" onclick="r(5)">5</button>
-                <button class="number-button" onclick="r(6)">6</button>
-                <button class="number-button" onclick="r(7)">7</button>
-                <button class="number-button" onclick="r(8)">8</button>
-                <button class="number-button" onclick="r(9)">9</button>
+                <button class="number-button" onclick="r('0')">0</button>
+                <button class="number-button" onclick="r('1')">1</button>
+                <button class="number-button" onclick="r('2')">2</button>
+                <button class="number-button" onclick="r('3')">3</button>
+                <button class="number-button" onclick="r('4')">4</button>
+                <button class="number-button" onclick="r('5')">5</button>
+                <button class="number-button" onclick="r('6')">6</button>
+                <button class="number-button" onclick="r('7')">7</button>
+                <button class="number-button" onclick="r('8')">8</button>
+                <button class="number-button" onclick="r('9')">9</button>
             </div>
             <div class="operators">
-                <button class="operator-button" onclick="r('+')">+</button>
-                <button class="operator-button" onclick="r('-')">-</button>
-                <button class="operator-button" onclick="r('x')">x</button>
-                <button class="operator-button" onclick="r('%')">%</button>
-                <button class="operator-button">=</button>
-                <button class="operator-button" onclick="display.textContent = ''">CLEAR</button>
+                <button class="operator-button" onclick="b('add')">+</button>
+                <button class="operator-button" onclick="b('subtract')">-</button>
+                <button class="operator-button" onclick="b('multiply')">x</button>
+                <button class="operator-button" onclick="b('divide')">/</button>
+                <button class="operator-button" onclick="equals()">=</button>
+                <button class="operator-button" onclick="textRemover()">CLEAR</button>
             </div>
         </div>
     </div>

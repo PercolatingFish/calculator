@@ -59,6 +59,11 @@ function equals() {
     if (operator == null || num2 == '') {
         return
     }
+    if (operator === 'divide' && num2 === '0') {
+        alert("Don't divide by zero!");
+        textRemover();
+        return
+    }
     num2 = operate(operator, num1, num2);
     display.textContent = parseFloat(num2.toFixed(6));
     operator = null;
